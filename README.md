@@ -30,9 +30,9 @@ Response:
 > }
 
 * Пример POST запроса на подтверждение перевода денежных средств
-> Request URL: http://localhost:5500/confirmOperation    
-Content-Type: application/json 
-Request Payload :  
+> Request URL: http://localhost:5500/confirmOperation         
+Content-Type: application/json      
+Request Payload :      
 {  
 &ensp; "code": "0000",  
 &ensp; "operationId": "1"  
