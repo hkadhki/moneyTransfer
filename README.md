@@ -15,15 +15,16 @@ REST-сервис. Сервис предоставляет интерфейс д
   Accept: application/json, text/plain  
   Content-Type: application/json;charset=UTF-8  
   Request Payload :  
-{  
->&ensp; "cardFromNumber": "1111111111111111",    
->&ensp; "cardFromCVV": "123",
->&ensp; "cardFromValidTill": "12/24",
->&ensp; "cardToNumber": "1111111111111112",
->&ensp; "amount": {  
->&emsp; "currency": "RUB",  
->&emsp; "value": 100000  
->&ensp; }  
+{
+> "cardFromNumber": "1111111111111111",
+> "cardFromCVV": "123",
+> "cardFromValidTill": "12/24",
+> "cardToNumber": "1111111111111112",
+> "amount": {
+>     "currency": "RUB",
+>     "value": 100000
+> }
+
 }  
 Response:  
 > {  
